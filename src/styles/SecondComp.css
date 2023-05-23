@@ -1,0 +1,106 @@
+.secondDiv{
+    background-color: #FFFBF6;
+    border-radius: 1rem;
+    padding: 2.4rem 2rem;
+    color: black;
+    margin-top: 1.6rem ;
+    width: 30rem;
+}
+
+.secondDiv h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.1rem;
+}
+.chartMap{
+    display: flex ;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    color: #92857A;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    text-align: center;
+    height: 22rem;
+}
+.charts{
+    display: flex;
+    gap: 0.8rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blackPrice{
+    border-radius: 0.5rem;
+    background-color: black;
+    padding: 0.4rem;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 23px;
+    color: #FFFBF6;
+}
+
+hr{
+    margin-top: 3.2rem;
+    opacity: 0.2;
+}
+
+.total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2.4rem;
+}
+
+.total p{
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #92857A;
+}
+.percent{
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;  
+}
+.others, .wedd{
+    border-radius: 0.5rem;
+    width: 3rem;
+}
+.others{
+    background-color: #EC755D ;
+}
+.wedd{
+    background-color: #76B5BC;
+}
+.wedd:hover{
+    background-color: #B4E0E5;
+    cursor: pointer;
+}
+.others:hover{
+    cursor: pointer;
+    background-color: #FF9B86;
+}
+.show{
+    display: flex;
+}
+
+@media (min-width: 1440px){
+    .secondDiv{
+        background-color: #FFFBF6;
+        border-radius: 1rem;
+        padding: 3.2rem 4rem 4rem;
+        color: black;
+        margin-top: 1.6rem ;
+        width: 47rem;
+    }
+    .secondDiv h1{
+        font-size: 3.2rem;
+    }
+    .others, .wedd{
+        width: 5rem;
+    }
+}
